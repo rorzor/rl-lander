@@ -12,5 +12,6 @@ The plan of this project is an initial foray into using reinforcmenent learning 
   * Thrust, which acts to produce acceleration in the opposite direction to gravity 
 
 * The player (or agent) has the ability to **increase** or **decrease** the thrust at any given time. The amount of thrust available at this stage will be from 0 - 3g
+* Each time the game starts, the rocket will have a position randomly set between 500-1000m, and have a downward velocity of between 10-30m/s
 * The goal is to land the rocket safely in the least amount of time. Theoretically this is achieved by invoking maximum thrust right up to the moment of landing, initated at a time determined by the rocket's postiion and velocity.
 * To land **safely**, the rocket must be travelling less than 1m/s when it hits the ground (position is 0m)    
